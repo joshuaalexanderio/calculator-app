@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <label for="display"></label>
+            <input type="text" id="result">
+            <button id="clearButton" type="button" onclick="clearScreen()" value="C">
+              C
+            </button>
+          </div>
+          
+        </div>
+          
+        <div class="row">
+          <div class="col">
+            <button type="button" onclick="display('1')" value"1">
+              1
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" onclick="display('2')" value"2">
+              2
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" onclick="display('3')" value"3">
+              3
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" onclick="display('/')" value"/">
+              /
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="button" onclick="display('4')"value"4">
+              4
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" onclick="display('5')" value"5">
+              5
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" onclick="display('6')" value"6">
+              6
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" onclick="display('-')" value"-">
+              -
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="button" onclick="display('7')" value"7">
+              7
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" onclick="display('8')" value"8">
+              8
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" onclick="display('9')" value"9">
+              9
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" onclick="display('+')" value"+">
+              +
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="button" onclick="display('0')" value"0">
+              0
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" onclick="display('.')" value".">
+              .
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" onclick="calculate()" value"&equals.">
+              =
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" onclick="display('*')" value"*">
+              *
+            </button>
+          </div>
+        </div>
+      </div>
+        
+      </main>
+
+  <script src="app.js"></script>    
+  </body>
+</html>
